@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background-color: rgb(187, 142, 29);
+    width: 100%;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /*to make home..in one line whith logo*/
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    
+}
+.logo0{
+    color: rgb(253, 252, 250);
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+.containt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+img{
+    width:300px;
+    border-radius: 20px;
+}
+.text{
+    color: white;
+    width: 40%;
+}
+.container .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.container .text p{
+   font-size: 18px;
+   margin: 20px 0;  
+}
+.container .text a{
+    background-color: white;
+    color: black;
+    padding: 8px ;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.icons{
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 90px;
+    transition: 0.2s;
+}
+.icons img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 5px rgb(128, 125, 125) solid;
+}
